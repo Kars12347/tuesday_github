@@ -1,0 +1,8 @@
+body{
+    background-image: url(asset-background.jpg);
+    background-repeat: repeat;
+}
+nav{
+    display: flex;
+    font-size: 20px;
+}
