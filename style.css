@@ -1,8 +1,30 @@
 body{
     background-image: url(asset-background.jpg);
-    background-repeat: repeat;
 }
-nav{
+html{
+    scroll-behavior: smooth;
+}
+.background-2 img{
+    padding-left: 500px;
+}
+nav {
     display: flex;
+    justify-content: space-around;
+    position: sticky;
     font-size: 20px;
+    margin-top: 20px;
+    background-color: #7895B2;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #210202;
 }
